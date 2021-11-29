@@ -1,7 +1,8 @@
-# Getting Started with Create React App
+# SAVE LIFE
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [React](https://reactjs.org/), And many other technologies.
 
+The project was developed by [Azmi Al-Tammam](https://twitter.com/azzmmii)
 ## Available Scripts
 
 In the project directory, you can run:
