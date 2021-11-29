@@ -1,4 +1,4 @@
-<p align="center"> <img width="100px" src="https://res.cloudinary.com/anuraghazra/image/upload/v1594908242/logo_ccswme.svg" align="center" alt="GitHub Readme Stats" /> <h2 align="center">SAVE LIFE</h2> <p align="center">The project was developed by Azmi Al-Tammam</p></p>
+<p align="center"> <img width="100px" src="https://res.cloudinary.com/durpirilj/image/upload/v1638193558/icon_fenpky.png" align="center" alt="GitHub Readme Stats" /> <h2 align="center">SAVE LIFE</h2> <p align="center">The project was developed by Azmi Al-Tammam</p></p>
 
 
 This project was bootstrapped with [React](https://reactjs.org/), And many other technologies.
