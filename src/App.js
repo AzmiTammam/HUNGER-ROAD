@@ -1,12 +1,12 @@
 import "./style.sass";
 import Navbar from "./components/navbar/navabr";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 function App() {
   return (
-    <>
-      <header className="App-header">
+    <BrowserRouter>
           <Navbar />
-      </header>
-    </>
+    </BrowserRouter>
   );
 }
 

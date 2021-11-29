@@ -9,7 +9,7 @@ The project was developed by <a href="https://twitter.com/azzmmii">Azmi Al-Tamma
 
 <p align="center">
     <a href="https://github.com/AzmiTammam/blood-donation/issues">
-      <img alt="Issues" src="https://img.shields.io/github/issues/anuraghazra/github-readme-stats?color=0088ff" />
+      <img alt="Issues" src="https://img.shields.io/github/issues/AzmiTammam/blood-donation?color=0088ff" />
     </a>
     <a href="https://github.com/AzmiTammam/blood-donation/pulls">
       <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/AzmiTammam/blood-donation?color=0088ff" />
