@@ -1,0 +1,84 @@
+*
+      box-sizing: border-box
+      margin: 0
+      padding: 0
+
+
+.partner
+      display: flex
+      justify-content: center
+      text-align: center
+      flex-direction: column
+
+.partner-body
+      display: flex
+      justify-content: center
+      justify-items: center
+
+
+.partner .partner-body a
+      width: 250px
+      border-radius: 5px
+      text-decoration: none
+      background-color: #00a759
+      color: white      
+      padding: 10px 0px
+
+.partner .partner-body a:hover 
+      background-color: #00ca6c
+      transition: all .5s ease-in-out
+
+.partnerContainer
+      display: block
+      max-width: 50vw
+      margin: 45px auto 45px
+
+.progressbar
+      counter-reset: step
+
+      & li
+            list-style-type: none
+            width: 25%
+            float: left
+            font-size: 15px
+            position: relative
+            text-align: center
+            text-transform: uppercase
+            color: #000000
+
+      & li:before
+            width: 45px
+            height: 45px
+            content: counter(step)
+            counter-increment: step
+            line-height: 45px
+            border: 2px solid #ffec7d
+            display: block
+            text-align: center
+            margin: 0 auto 10px auto
+            border-radius: 50%
+            background-color: #ffec7d
+
+      & li:after
+            width: 100%
+            height: 2px
+            content: ''
+            position: absolute
+            background-color: #dbdbdb
+            top: 24px
+            left: -50%
+            z-index: -1
+
+      & li:first-child:after
+            content: none
+      
+      & li.active
+            color: #00C269
+
+      & li.active:before
+            border-color: #CCF3E1
+            background-color: #00C269
+            color: white
+
+      & li.active + li:after
+            background-color: #00C269

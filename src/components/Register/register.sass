@@ -6,17 +6,17 @@
       padding: 0
       font-family: 'Outfit', sans-serif
 
-.register
+.registerContainer
       display: flex
       justify-content: center
       align-items: center
 
-.register h1
+.registerContainer h1
       font-weight: 500
       text-align: center
       margin-bottom: 35px
 
-.register form .fullName input
+.registerContainer form .RegisterFullNameDiv input, .RegisterPasswordsDiv input
       width: 200px
       border: none
       outline: none
@@ -26,7 +26,7 @@
       padding: 10px 0 10px 5px
       border-bottom: 1px solid #dddddddd
 
-.register form .register input
+.registerContainer form .RegisterEmailDiv input, .RegisterPhoneDiv input
       border: none
       outline: none
       margin: 2px auto
@@ -36,7 +36,7 @@
       width: 400px
       border-bottom: 1px solid #dddddddd
 
-.register form .passwords input
+.registerContainer form .RegisterShowPasswordDiv input
       border: none
       outline: none
       margin: 2px auto
@@ -46,7 +46,7 @@
       width: 200px
       border-bottom: 1px solid #dddddddd
 
-.register form button
+.registerContainer form button
       margin: 25px auto 0 auto
       display: block
       background-color: #E1533D
@@ -58,22 +58,22 @@
       font-size: 17px
       border-radius: 33% 67% 20% 80% / 40% 50% 50% 60%
 
-.register form button:hover
+.registerContainer form button:hover
       background-color: #bb594a
       transition: all .3s ease
       color: black
 
-.register form .showPassword input
+.registerContainer form .RegisterShowPasswordDiv input
       margin-right: 5px
       height: 15px
       width: 15px
       margin-top: 2px
 
-.register .newAccount span
+.registerContainer .RegisterNewAccountDiv span
       display: block
       text-align: center
       margin-top: 50px
       font-size: 16px
 
-.register .newAccount span a
+.registerContainer .RegisterNewAccountDiv span a
       text-decoration: none

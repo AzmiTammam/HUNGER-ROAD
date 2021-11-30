@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import './login.sass'
+import Navbar from "../navbar/Navbar";
 
 function Login(){
       function showPassword() {
@@ -13,13 +14,14 @@ function Login(){
           }
 
       return(
-            <div className="login">
+            <div className="MainLogin">
+                  <Navbar />
                   <form>
                   <h1>Login</h1>
-                        <div className="login" >
+                        <div className="loginDiv" >
                               <input type="email" name="email" id="email" placeholder="Email" required/>
                         </div>
-                        <div className="login" >
+                        <div className="loginDiv" >
                               <input type="password" name="password" id="password" placeholder="Password" required/>
                         </div>
                         <div className="containerPasswords">
