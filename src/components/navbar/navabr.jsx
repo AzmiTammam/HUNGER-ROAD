@@ -35,10 +35,13 @@ function Navbar() {
             <Link to="/home">Home</Link>
           </li>
           <li>
-            <Link to="/donate">Donate</Link>
+            <Link to="/partner">Become a partner</Link>
           </li>
           <li>
-            <Link to="/news">News</Link>
+            <Link to="/news">become a driver</Link>
+          </li>
+          <li>
+            <Link to="/restaurants">All restaurants</Link>
           </li>
         </ul>
       </nav>

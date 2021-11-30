@@ -22,9 +22,14 @@ function Login(){
                         <div className="login" >
                               <input type="password" name="password" id="password" placeholder="Password" required/>
                         </div>
+                        <div className="containerPasswords">
                         <div className="showPassword">
                         <input type="checkbox" id="showPassword" onClick={showPassword} />
                         <label htmlFor="showPassword">Show Password</label>
+                        </div>
+                        <div className="forgotPassword">
+                        <Link to="/login"><label>Forgot  password?</label></Link>
+                        </div>
                         </div>
                         <button type="submit" id="submitLogin">Login</button>
                         <div className="newAccount">
