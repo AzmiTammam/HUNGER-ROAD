@@ -38,7 +38,7 @@ function Navbar() {
             <Link to="/partner">Become a partner</Link>
           </li>
           <li>
-            <Link to="/news">become a driver</Link>
+            <Link to="/rider">become a driver</Link>
           </li>
           <li>
             <Link to="/restaurants">All restaurants</Link>

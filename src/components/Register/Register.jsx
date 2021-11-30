@@ -17,7 +17,7 @@ function register() {
   }
 
   return (
-    <div>
+    <div className="MainRegister">
       <Navbar />
       <div className="registerContainer">
         <form>

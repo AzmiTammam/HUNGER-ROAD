@@ -5,6 +5,9 @@ import Login from "./components/Login/Login";
 import Register from "./components/Register/Register";
 import Partner from "./components/Partner/Partner";
 import ApplyPartner from "./components/Partner/ApplyPartner"
+import Rider from "./components/Rider/Rider";
+import Footer from "./components/Footer/Footer";
+import PartnerPanel from "./components/Partner/PartnerPanel/PartnerPanel";
 
 function App() {
   return (
@@ -14,9 +17,12 @@ function App() {
           <Route path="/home" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/Register" element={<Register />} />
+          <Route path="/Rider" element={<Rider />} />
           <Route path="/Partner" element={<Partner />} />
           <Route path="/ApplyPartner" element={<ApplyPartner />} />
+          <Route path="/PartnerPanel" element={<PartnerPanel />} />
           </Routes>
+          <Footer />
     </BrowserRouter>
   );
 }
