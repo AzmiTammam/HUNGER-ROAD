@@ -8,7 +8,7 @@ function ApplyPartner() {
           <Navbar />
       <div className="apply">
         <div className="infoApply">
-              <h1 className="heading">
+              <h1 className="heading animate__animated animate__headShake">
               Large, medium or small business? <br /> You're at the right place!
               </h1>
               <p>Get more sales</p>

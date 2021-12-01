@@ -24,6 +24,10 @@ function Footer(){
                               test
                               test
                         </div>
+                        <div className="middleFooter">
+                              asdasdasdasdasdasdasd
+                        </div>
+
                   </div>
             </footer>
       )

@@ -8,8 +8,8 @@ function Rider() {
     <div className="RiderContainer">
       <Navbar />
       <div className="RiderHeading">
-        <h3>Wanna join our</h3>
-        <h1>Delivery Riders fleet?</h1>
+        <h3  className="animate__animated animate__backInLeft" >Wanna join our</h3>
+        <h1 className="animate__animated animate__backInLeft">Delivery Riders fleet?</h1>
       </div>
       <Link to="/rider"className="RiderButton" >YEAAAAAA !</Link>
     </div>
