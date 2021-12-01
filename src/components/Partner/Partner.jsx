@@ -20,7 +20,7 @@ function Partner() {
       </div>
 
       <div className="partner-body">
-        <Link to="/ApplyPartner">Apply now</Link>
+        <Link to="/ApplyPartner">Apply now!</Link>
       </div>
     </div>
   );
