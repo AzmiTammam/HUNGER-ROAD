@@ -58,6 +58,7 @@
 
 .MainLogin form .containerPasswords
       display: flex
+      margin-top: 5px
 
 .MainLogin form .showPassword
       margin: 1px
@@ -70,3 +71,48 @@
 
 .MainLogin form .forgotPassword a label
       cursor: pointer
+
+.loginDiv.loginDiv
+      position: relative
+
+.loginDiv input
+      width: 6.5em
+      border: 1.5px solid transparent !important
+      transition: background-color 0.3s ease-in-out !important
+
+.loginDiv input:focus
+      outline: none
+
+.loginDiv input::placeholder
+      color: black
+
+.loginDiv span
+      position: absolute
+      background-color: #E1533D
+      transition: transform 0.3s ease
+
+.loginDiv input
+      background-color: transparent
+      border: 1px solid transparent
+      border-bottom-color: hsla(185, 100%, 62%, 0.2)
+
+.loginDiv input:focus
+      outline: none
+
+.loginDiv input::placeholder
+      color: black
+
+.loginDiv span
+      position: absolute
+      bottom: 0
+      left: 0
+      right: 0
+      height: 1px
+      background-color: #f0604a
+      transform-origin: bottom right
+      transform: scaleX(0)
+      transition: transform 0.5s ease
+
+.loginDiv input:focus ~ span
+      transform-origin: bottom left
+      transform: scaleX(1)

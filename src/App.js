@@ -13,7 +13,6 @@ import PartnerPanel from "./components/Partner/PartnerPanel/PartnerPanel";
 function App() {
   return (
     <BrowserRouter>
-          
           <Routes>
           <Route path="/home" element={<Home />} />
           <Route path="/login" element={<Login />} />

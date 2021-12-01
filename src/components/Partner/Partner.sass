@@ -1,5 +1,4 @@
 
-
 .partner
       display: flex
       justify-content: center
@@ -12,16 +11,15 @@
       justify-content: center
       justify-items: center
 
-
 .partner .partner-body a
       width: 250px
       border-radius: 5px
       text-decoration: none
       background-color: #00a759
-      color: white      
+      color: white
       padding: 10px 0px
 
-.partner .partner-body a:hover 
+.partner .partner-body a:hover
       background-color: #00ca6c
       transition: all .5s ease-in-out
 
@@ -69,7 +67,7 @@
 
       & li:first-child:after
             content: none
-      
+
       & li.active
             color: #00C269
 
@@ -80,3 +78,22 @@
 
       & li.active + li:after
             background-color: #00C269
+
+.FlexContainer
+      display: flex
+      flex-wrap: nowrap
+      justify-content: center
+      align-items: center
+      align-content: center
+      flex-direction: row
+      margin: 130px 0
+
+.FlexContainer div
+      width: 318px
+      height: 143px
+      margin: 5px
+
+.FlexContainer p 
+      font-size: 16px
+      color: #b6b6b6
+      font-weight: 300

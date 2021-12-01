@@ -16,7 +16,9 @@ function Footer(){
                   </section>
                   <div className="footerContainer">
                         <div className="downloadApps">
+                        <h2>Download the App</h2>
                         <img src="https://res.cloudinary.com/durpirilj/image/upload/v1638313972/logo_playstore_pmrmge.svg" width="200px" alt="Download App from AppStore" />
+                        <br />
                         <img src="https://res.cloudinary.com/durpirilj/image/upload/v1638313972/logo_appstore_rpdtgi.svg" width="200px" alt="Download App from AppStore" />
                         </div>
                         <div className="footerInfo">
@@ -28,6 +30,7 @@ function Footer(){
                               asdasdasdasdasdasdasd
                         </div>
 
+                        
                   </div>
             </footer>
       )

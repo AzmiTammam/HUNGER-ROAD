@@ -20,9 +20,11 @@ function Login(){
                   <h1>Login</h1>
                         <div className="loginDiv" >
                               <input type="email" name="email" id="email" placeholder="Email" required/>
+                              <span class="bottom"></span>
                         </div>
                         <div className="loginDiv" >
                               <input type="password" name="password" id="password" placeholder="Password" required/>
+                              <span class="bottom"></span>
                         </div>
                         <div className="containerPasswords">
                         <div className="showPassword">

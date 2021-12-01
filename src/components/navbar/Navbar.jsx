@@ -45,7 +45,7 @@ function Navbar() {
           </li>
         </ul>
       </nav>
-      <Link to="/login" className="loginInput">Login</Link>
+      <Link to="/login" className="css-button-sliding-to-left--black">Login</Link>
     </div>
   );
 }

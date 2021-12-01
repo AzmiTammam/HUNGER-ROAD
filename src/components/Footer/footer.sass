@@ -5,10 +5,8 @@ footer
       flex-direction: column
       padding-bottom: 120px
       background-color: #262626
-      padding-right:259px
-      padding-left: 259px
 
-.footerContainer 
+.footerContainer
       display: flex
       justify-content: space-between
       align-items: center
@@ -16,8 +14,10 @@ footer
 
 footer section.footerLinks
       display: flex
-      justify-content: space-between
+      flex-grow: 25px
+      justify-content: space-around
       text-align: center
+      flex-direction: row
       padding: 30px 0
       border-bottom: 1px solid #3b3b3b
 
@@ -29,5 +29,39 @@ footer section.footerLinks a:hover
       color: #e1533d
       transition: all 0.3s ease-in-out
 
-.downloadApps 
+.downloadApps
       padding: 70px
+
+.downloadApps h2
+      margin-bottom: 30px
+      color: #e7e7e7
+      position: relative
+      z-index: 5
+      line-height: 2
+      font-size: 25px
+
+.downloadApps h2::before
+      border-top: 8px solid #cc4a36f5
+      content: ""
+      position: absolute
+      inset: 22px 1px 0px
+      width: 100%
+      z-index: -2
+
+.downloadApps img
+      margin-bottom: 5px
+      cursor: pointer
+
+.parent
+      display: grid
+      grid-template-columns: repeat(4, 1fr)
+      grid-template-rows: repeat(2, 1fr)
+      grid-column-gap: 0px
+      grid-row-gap: 0px
+
+.div1
+      grid-area: 1 / 1 / 2 / 5
+.div2
+      grid-area: 2 / 1 / 3 / 3
+.div3
+      grid-area: 2 / 3 / 3 / 5

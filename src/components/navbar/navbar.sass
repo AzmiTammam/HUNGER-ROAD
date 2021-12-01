@@ -49,12 +49,11 @@
       color: #000000
 
 .nav__links li a:hover
-      color: #E1533D
+ 
       transition: all 0.3s ease
 
 .navHeader .loginInput
       padding: 9px 25px
-      border: none
       border-radius: 20px
       color: #E1533D
       border: 1px solid #E1533D
@@ -66,3 +65,59 @@
       transition: all .3s ease-in-out
       color: #000
       border: 1px solid #000
+
+.css-button-sliding-to-left--black
+      text-decoration: none
+      height: 40px
+      color: #fff
+      padding: 8px 20px
+      cursor: pointer
+      transition: all 0.3s ease
+      position: relative
+      display: inline-block
+      outline: none
+      border-radius: 15px
+      z-index: 0
+      background: #fff
+      margin-left: 5px
+      overflow: hidden
+      border: 1.8px solid #E1533D
+      color: #E1533D
+
+.css-button-sliding-to-left--black:hover
+      color: #fff
+
+.css-button-sliding-to-left--black:hover:after
+      width: 100%
+
+.css-button-sliding-to-left--black:after
+      content: ""
+      position: absolute
+      z-index: -1
+      transition: all 0.3s ease
+      left: 0
+      top: 0
+      width: 0
+      height: 100%
+      background: #E1533D
+
+li
+      position: relative
+
+li a::before
+      content: ''
+      position: absolute
+      bottom: 0
+      top: 20px
+      left: 3px
+      right: 0
+      height: 1.5px
+      width: 95%
+      background-color: #E1533D
+      transform-origin: bottom right
+      transform: scaleX(0)
+      transition: transform 0.3s ease
+
+li a:hover::before
+      transform-origin: bottom left
+      transform: scaleX(1)
