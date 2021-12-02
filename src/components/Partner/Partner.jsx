@@ -1,5 +1,5 @@
 import React from "react";
-import "./Partner.sass";
+import "./Partner.scss";
 import { Link } from "react-router-dom";
 import Navbar from "../navbar/Navbar";
 

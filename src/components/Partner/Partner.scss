@@ -1,0 +1,143 @@
+
+.partner {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      flex-direction: column;
+      margin-bottom: 70px;
+}
+
+
+.partner-body {
+      display: flex;
+      justify-content: center;
+      justify-items: center;
+}
+
+
+.partner .partner-body a {
+
+      width: 250px;
+      border-radius: 5px;
+      text-decoration: none;
+      background-color: #00a759;
+      color: white;
+      padding: 10px 0px;
+
+}
+
+.partner .partner-body a:hover {
+
+      background-color: #00ca6c;
+      transition: all .5s ease-in-out;
+
+}
+
+.partnerContainer {
+
+      max-width: 50vw;
+      display: block;
+      margin: 45px auto 45px;
+
+}
+
+.progressbar {
+      counter-reset: step;
+}
+
+.progressbar li {
+
+
+      list-style-type: none;
+      width: 25%;
+      float: left;
+      font-size: 15.5px;
+      position: relative;
+      text-align: center;
+      text-transform: uppercase;
+      color: #000000;
+}
+
+.progressbar li:before {
+
+
+      width: 45px;
+      height: 45px;
+      content: counter(step);
+      counter-increment: step;
+      line-height: 45px;
+      color: white;
+      border: 2px solid #E1533D;
+      display: block;
+      text-align: center;
+      margin: 0 auto 10px auto;
+      border-radius: 50%;
+      background-color: #E1533D;
+}
+
+.progressbar li:after {
+      width: 100%;
+      height: 2px;
+      content: '';
+      position: absolute;
+      background-color: #dbdbdb;
+      top: 24px;
+      left: -50%;
+      z-index: -1;
+}
+
+.progressbar li:first-child:after {
+      content: none;
+}
+.progressbar li.active {
+      color: #00C269;
+}
+
+.progressbar li.active:before {
+      border-color: #CCF3E1;
+      background-color: #00C269;
+      color: white;
+}
+
+.progressbar li.active + li:after {
+      background-color: #00C269;
+}
+
+.FlexContainer {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      flex-direction: row;
+      margin: 130px 0
+}
+
+.FlexContainer div {
+
+      width: 400px;
+      height: 143px
+}
+
+.FlexContainer p {
+
+      font-size: 16px;
+      color: #b6b6b6;
+      font-weight: 300
+}
+
+@media screen and (max-width: 768px) {
+      .partnerContainer {
+            max-width: 75vw;
+      }
+      .FlexContainer div {
+            width: 80px;
+            height: 143px;
+                  }
+}
+
+@media screen and (max-width: 425px) {
+      .partnerContainer {
+            max-width: 95%
+      }
+}

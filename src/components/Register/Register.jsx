@@ -74,16 +74,19 @@ function register() {
               required
             />
           </div>
+          <div className="AcceptTermsDiv">
+            <input type="checkbox" name="terms" id="AcceptTerms" required/> I agree with <Link to="/">Terms</Link> and <Link to="">Privacy</Link>
+          </div>
           <div className="RegisterShowPasswordDiv">
             <input type="checkbox" id="showPassword" onClick={showPassword} />
             <label htmlFor="showPassword">Show Password</label>
           </div>
-          <button type="submit" id="submitLogin">
+          <button class="buttonRegister" type="submit" id="submitLogin">
             Register
           </button>
           <div className="RegisterNewAccountDiv">
             <span>
-              Already have an account? <Link to="/login">Login</Link>{" "}
+              Already have an account? <Link to="/login">Login</Link>
             </span>
           </div>
         </form>
