@@ -7,13 +7,44 @@
       display: flex
       justify-content: center
       flex-direction: column
+      background-color: whitesmoke
+
+.containerReg
+      display: flex
+      justify-content: space-around
       align-items: center
       background-color: whitesmoke
+      margin-bottom: 50px
+
+.registerContainer
+      display: flex
+      box-shadow: 50px 25px 100px 50px #e1533d10
+      padding: 25px 35px
+      border-radius: 15px
+
+.MainRegister .MainRegLeft
+      align-items: flex-start
+
+.MainRegister .MainRegLeft img
+      border-radius: 50px
+      margin-top: 55px
+      margin-right: 20px
+
+.MainRegister form
+      align-items: flex-end
+      background: whitesmoke
+      /** box-shadow: 50px 25px 100px 50px #e1533d10 **/
+      backdrop-filter: blur( 9.5px )
+      -webkit-backdrop-filter: blur( 9.5px )
+      border-radius: 10px
+      padding: 20px 0px 0px 0
 
 .registerContainer h1
       font-weight: 500
       text-align: center
       margin-bottom: 35px
+      color: #E1533D
+      text-align: left !important
 
 .registerContainer form .RegisterFullNameDiv input, .RegisterPasswordsDiv input
       width: 200px
@@ -23,7 +54,7 @@
       font-size: 16px
       font-weight: 400
       padding: 10px 0 10px 5px
-      border-bottom: 1px solid #dddddddd
+      background: transparent
 
 .registerContainer form .RegisterEmailDiv input, .RegisterPhoneDiv input
       border: none
@@ -33,7 +64,7 @@
       font-weight: 400
       padding: 10px 0 10px 5px
       width: 400px
-      border-bottom: 1px solid #dddddddd
+      background: transparent
 
 .registerContainer form .RegisterShowPasswordDiv input
       border: none
@@ -43,19 +74,21 @@
       font-weight: 400
       padding: 10px 0 10px 5px
       width: 200px
-      border-bottom: 1px solid #dddddddd
 
 .registerContainer form button
-      margin: 25px auto 0 auto
+      margin: 19px auto 0 auto
       display: block
       border: 2px solid #E1533D
       color: #E1533D
-      width: 250px
+      width: 150px
+      box-shadow: 0px 0px 15px -4px #00000033
       cursor: pointer
-      padding: 10px 0
-      box-shadow: 0px 0px 15px -4px #00000059
+      padding: 5px 0
       font-size: 17px
       border-radius: 15px
+
+.registerContainer input::placeholder
+      color: #611d12d0 !important
 
 .registerContainer form button:hover
       background-color: #E1533D
@@ -64,8 +97,8 @@
 
 .registerContainer form .RegisterShowPasswordDiv input
       margin-right: 5px
-      height: 15px
-      width: 15px
+      height: 13px
+      width: 13px
       margin-top: 2px
 
 #AcceptTerms
@@ -73,9 +106,7 @@
       margin-right: 5px
       height: 15px
       width: 15px
-      margin-top: 2px
       background-color: #E1533D
-
 
 .AcceptTermsDiv a
       color: #E1533D
@@ -83,17 +114,31 @@
 
 .RegisterNewAccountDiv
       border-top: 1px solid #acacac8c
-      margin-top: 25px
-
+      margin-top: 20px
 
 .registerContainer .RegisterNewAccountDiv span
       display: block
       text-align: center
-      margin-top: 25px
-      margin-bottom: 25px
+      margin-top: 10px
       font-size: 16px
 
 .registerContainer .RegisterNewAccountDiv span a
       text-decoration: none
       color: #E1533D
 
+
+
+.registerContainer span.bottom
+      position: absolute
+      bottom: 0
+      left: 0
+      right: 0
+      height: 1px
+      background-color: #f0604a
+      transform-origin: bottom right
+      transform: scaleX(0)
+      transition: transform 0.5s ease
+
+.registerContainer input:focus ~ span.bottom
+      transform-origin: bottom left
+      transform: scaleX(1)

@@ -2,10 +2,12 @@ import React from "react";
 import "./Partner.scss";
 import { Link } from "react-router-dom";
 import Navbar from "../navbar/Navbar";
+import Footer from "../Footer/Footer";
 
 function Partner() {
   return (
-    <div className="partner">
+    <>
+        <div className="partner">
       <Navbar />
       <h1>Partner with Market Leaders</h1>
       <h2>get more sales</h2>
@@ -40,6 +42,8 @@ function Partner() {
             </div>
         </section>
     </div>
+    <Footer />
+    </>
   );
 }
 

@@ -1,10 +1,11 @@
 import React from "react";
 import "./ApplyPartner.sass";
 import Navbar from "../navbar/Navbar";
+import Footer from "../Footer/Footer";
 function ApplyPartner() {
   return (
-        
-    <div className="container1" >
+      <>
+          <div className="container1" >
           <Navbar />
       <div className="apply">
         <div className="infoApply">
@@ -49,6 +50,8 @@ function ApplyPartner() {
         </div>
       </div>
     </div>
+    <Footer />
+      </>
   );
 }
 

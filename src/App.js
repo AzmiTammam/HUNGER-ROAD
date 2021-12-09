@@ -9,6 +9,11 @@ import ApplyPartner from "./components/Partner/ApplyPartner"
 import Rider from "./components/Rider/Rider";
 import Footer from "./components/Footer/Footer";
 import PartnerPanel from "./components/Partner/PartnerPanel/PartnerPanel";
+import Admin from "./components/Admin/admin";
+import PageNotFound from "./404-page";
+import Sidebar from "./components/Admin/sidebar/sidebar";
+import Users from "./components/Admin/Users/users";
+import Profile from "./components/Profile/Profile";
 
 function App() {
   return (
@@ -21,8 +26,12 @@ function App() {
           <Route path="/Partner" element={<Partner />} />
           <Route path="/ApplyPartner" element={<ApplyPartner />} />
           <Route path="/PartnerPanel" element={<PartnerPanel />} />
+          <Route path="/admin" element={<Admin />} />
+          <Route path="/sidebar" element={<Sidebar />} />
+          <Route path="/Users" element={<Users />} />
+          <Route path="/profile" element={<Profile />} />
+          <Route path="/*" element={<PageNotFound />} />
           </Routes>
-          <Footer />
     </BrowserRouter>
   );
 }

@@ -37,6 +37,7 @@
 
 .nav__links
       list-style: none
+      margin-bottom: 0
 
 .nav__links li
       display: inline-block
@@ -101,10 +102,10 @@
       height: 100%
       background: #E1533D
 
-li
+.nav__links li
       position: relative
 
-li a::before
+.nav__links li a::before
       content: ''
       position: absolute
       bottom: 0
@@ -118,6 +119,6 @@ li a::before
       transform: scaleX(0)
       transition: transform 0.3s ease
 
-li a:hover::before
+.nav__links li a:hover::before
       transform-origin: bottom left
       transform: scaleX(1)

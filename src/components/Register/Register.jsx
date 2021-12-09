@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./register.sass";
 import Navbar from "../navbar/Navbar";
+import Footer from "../Footer/Footer";
 
 function register() {
   function showPassword() {
@@ -19,7 +20,11 @@ function register() {
   return (
     <div className="MainRegister">
       <Navbar />
+      <div className="containerReg">
       <div className="registerContainer">
+      <div class="MainRegLeft">
+                  <img src="https://res.cloudinary.com/durpirilj/image/upload/v1638719585/partnerImg/5_bons8i.svg" width="450px" alt="img for login page" />
+      </div>
         <form>
           <h1>Create an Account</h1>
           <div className="RegisterFullNameDiv">
@@ -46,6 +51,8 @@ function register() {
               placeholder="Email"
               required
             />
+            <span class="bottom"></span>
+            
           </div>
           <div className="RegisterPasswordsDiv">
             <input
@@ -62,6 +69,8 @@ function register() {
               placeholder="Confirm Password"
               required
             />
+            <span class="bottom"></span>
+
           </div>
           <div className="RegisterPhoneDiv">
             <input
@@ -73,13 +82,11 @@ function register() {
               maxLength="14"
               required
             />
+            <span class="bottom"></span>
+
           </div>
           <div className="AcceptTermsDiv">
             <input type="checkbox" name="terms" id="AcceptTerms" required/> I agree with <Link to="/">Terms</Link> and <Link to="">Privacy</Link>
-          </div>
-          <div className="RegisterShowPasswordDiv">
-            <input type="checkbox" id="showPassword" onClick={showPassword} />
-            <label htmlFor="showPassword">Show Password</label>
           </div>
           <button class="buttonRegister" type="submit" id="submitLogin">
             Register
@@ -91,6 +98,8 @@ function register() {
           </div>
         </form>
       </div>
+      </div>
+      <Footer />
     </div>
   );
 }

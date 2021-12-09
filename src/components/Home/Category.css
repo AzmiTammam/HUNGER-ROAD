@@ -1,0 +1,31 @@
+.container .row .card p {
+      font-size: 15px;
+      font-weight: 300;
+      color: black;
+}
+
+.container a {
+      color: black;
+}
+
+.container .card {
+      margin-top: 35px;
+}
+
+.container .heading h2 {
+      margin-top: 55px;
+}
+.container .heading p {
+      font-size: 16px;
+      color: black;
+      display: block;
+      margin: 0 auto !important;
+      width: 34%;
+}
+
+.imageCard img {
+      max-width: 190px !important;
+      max-height: 155px !important;
+      min-width: 190px !important;
+      min-height: 155px !important;
+}
