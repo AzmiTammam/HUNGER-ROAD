@@ -1,9 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Category.css";
 
 function Category() {
   return (
-    <div className="container">
+    <div className="container CategoryContainer">
       <div className="heading">
         <h2 className="text-center">Your everyday, right away</h2>
         <p className="text-center">
@@ -13,7 +14,7 @@ function Category() {
       </div>
       <div className="row">
         <div className="col-6">
-          <a href="#" >
+          <Link to="/restaurants" >
             <div className="card mb-3">
               <div className="row no-gutters">
                 <div className="col-md-4 imageCard">
@@ -34,10 +35,10 @@ function Category() {
                 </div>
               </div>
             </div>
-          </a>
+          </Link>
         </div>
         <div className="col-6">
-          <a href="#">
+          <Link to="/restaurants">
             <div className="card mb-3">
               <div className="row no-gutters">
                 <div className="col-md-4 imageCard">
@@ -58,7 +59,7 @@ function Category() {
                 </div>
               </div>
             </div>
-          </a>
+          </Link>
           
         </div>
       </div>

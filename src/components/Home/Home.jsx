@@ -12,7 +12,7 @@ function Home() {
         <Navbar />
         <div className="HeaderHome">
           <h1>Order food to your door!</h1>
-          <Link className="effectButton" to="/">
+          <Link className="effectButton" to="/restaurants">
             Browse Stores List
           </Link>
         </div>

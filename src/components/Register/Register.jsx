@@ -48,6 +48,7 @@ function register() {
               type="email"
               name="email"
               id="email"
+              pattern="[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?"
               placeholder="Email"
               required
             />
@@ -86,7 +87,8 @@ function register() {
 
           </div>
           <div className="AcceptTermsDiv">
-            <input type="checkbox" name="terms" id="AcceptTerms" required/> I agree with <Link to="/">Terms</Link> and <Link to="">Privacy</Link>
+            <input type="checkbox" className="checkbox-primary" name="terms" id="AcceptTerms" required/>
+             <span>I agree with <Link to="/">Terms</Link> and <Link to="">Privacy</Link></span>
           </div>
           <button class="buttonRegister" type="submit" id="submitLogin">
             Register

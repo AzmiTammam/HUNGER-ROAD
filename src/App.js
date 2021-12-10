@@ -14,6 +14,7 @@ import PageNotFound from "./404-page";
 import Sidebar from "./components/Admin/sidebar/sidebar";
 import Users from "./components/Admin/Users/users";
 import Profile from "./components/Profile/Profile";
+import Restaurants from "./components/Restaurants/restaurants";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/Register" element={<Register />} />
           <Route path="/Rider" element={<Rider />} />
           <Route path="/Partner" element={<Partner />} />
+          <Route path="/Restaurants" element={<Restaurants />} />
           <Route path="/ApplyPartner" element={<ApplyPartner />} />
           <Route path="/PartnerPanel" element={<PartnerPanel />} />
           <Route path="/admin" element={<Admin />} />

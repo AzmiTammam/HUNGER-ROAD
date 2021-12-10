@@ -1,0 +1,29 @@
+.RestaurantsContainer .row .card {
+      padding: 15px;
+      margin: 5px 5px 10px 5px;
+      max-height: 280px;
+      min-height: 280px;
+}
+.RestaurantsContainer .row .card img {
+      max-width: 150px;
+      max-height: 150px;
+      min-height: 150px;
+      margin: 0 auto;
+}
+
+.RestaurantsContainer .row .card .card-body {
+      padding: 10px 5px;
+      max-height: 100px;
+
+}
+
+.RestaurantsContainer .row .card .card-body h5 {
+      font-size: 18px !important;
+      color: black;
+      text-align: center;
+}
+
+.RestaurantsContainer .row .card .card-body p {
+      font-size: .9em;
+      color: black;
+}
