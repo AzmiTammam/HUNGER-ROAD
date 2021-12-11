@@ -50,8 +50,10 @@ function Partner() {
       </div>
 
       <section className="partnerSection3">
+      <div className="partnerSectionBody">
       <img src="https://res.cloudinary.com/durpirilj/image/upload/v1639155474/partnerImg/deliveryGirl-modified_ietza8.png" alt="delivery girl" />
       <h2>Fleet of over 16,000 riders</h2>
+      </div>
       </section>
     </div>
     <Footer />

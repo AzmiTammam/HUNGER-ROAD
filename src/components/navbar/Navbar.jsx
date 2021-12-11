@@ -1,11 +1,22 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./navbar.sass";
+import "./navbar.scss";
+
+
+function burgerMenu() {
+  let burgerMenu = document.getElementById('customNavGhassan');
+
+  if(burgerMenu.style.display === "none") {
+    burgerMenu.style.display = "block"
+  } else {
+    burgerMenu.style.display="none"
+  }
+}
 
 function Navbar() {
   return (
     <div className="navHeader">
-      <div className="custom-shape-divider-top-1638186345">
+      <div className="custom-shape">
         <svg
           data-name="Layer 1"
           xmlns="http://www.w3.org/2000/svg"
@@ -26,26 +37,32 @@ function Navbar() {
             className="shape-fill"
           />
         </svg>
-      </div>
-
-      <img src="./images/icon.png" className="logo" alt="icon" />
-      <nav>
-        <ul className="nav__links">
-          <li>
-            <Link to="/home">Home</Link>
+      </div> 
+    <nav className="navbar navbar-expand-lg navbar-light">
+    <img src="./images/icon.png" className="logo" alt="icon" />
+      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span className="navbar-toggler-icon" />
+      </button>
+      <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul className="navbar-nav ml-auto">
+          <li className="nav-item">
+          <Link to="/home">Home</Link>
           </li>
-          <li>
-            <Link to="/partner">Become a partner</Link>
+          <li className="nav-item">
+          <Link to="/partner">Become a partner</Link>
           </li>
-          <li>
-            <Link to="/rider">become a driver</Link>
+          <li className="nav-item">
+          <Link to="/rider">become a driver</Link>
           </li>
-          <li>
-            <Link to="/restaurants">All restaurants</Link>
+          <li className="nav-item">
+          <Link to="/restaurants">All restaurants</Link>
+          </li>
+          <li className="nav-item">
+          <Link to="/login" className="css-button-sliding-to-left--black ">Login</Link>
           </li>
         </ul>
-      </nav>
-      <Link to="/login" className="css-button-sliding-to-left--black">Login</Link>
+      </div>
+    </nav>
     </div>
   );
 }

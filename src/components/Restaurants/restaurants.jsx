@@ -1,12 +1,21 @@
 import React from "react";
 import Navbar from "../navbar/Navbar"
+import Footer from "../Footer/Footer"
+import { Link } from "react-router-dom";
 import './restaurants.scss'
 function Restaurants(){
       return(
             <>
             <Navbar />
             <div className="RestaurantsContainer">
+                  
                   <div className="container">
+                        <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><Link to="/home">Home</Link></li>
+                        <li class="breadcrumb-item active" aria-current="page">Restaurants</li>
+                        </ol>
+                        </nav>
                         <div className="row">
                               <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                               <a href="#">
@@ -14,7 +23,7 @@ function Restaurants(){
                                     <img src="https://i.pinimg.com/originals/4f/a2/91/4fa291fc7c8d2811958c1f8f06e70cdd.jpg" className="card-img-top" alt="..." />
                                     <div className="card-body">
                                     <h5 className="card-title">KFC</h5>
-                                    <p className="card-text">American fast food restaurant chain headquartered in Louisville</p>
+                                    <p className="card-text">American fast food restaurant chain headquartered in Louisville American fast food restaurant chain headquartered in Louisville</p>
                                     </div>
                                     </div>
                                     </a>
@@ -91,6 +100,7 @@ function Restaurants(){
                         </div>
                   </div>
             </div>
+            <Footer />
             </>
       )
 }

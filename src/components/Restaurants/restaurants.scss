@@ -25,5 +25,14 @@
 
 .RestaurantsContainer .row .card .card-body p {
       font-size: .9em;
+      text-overflow: ellipsis;
       color: black;
+      white-space: nowrap; 
+      width: 200px; 
+      overflow: hidden;
+      text-overflow: ellipsis; 
+}
+
+.RestaurantsContainer .breadcrumb {
+      background-color: transparent;
 }

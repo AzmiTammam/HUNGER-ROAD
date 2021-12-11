@@ -27,11 +27,10 @@ function popUpForgotPassword() {
 
       return(
             <>
-                        <div className="MainLogin">
+            <div className="MainLogin">
                   <Navbar />
-
+                  
                   <div className="containerLogn">
-
                   <div className="Container111">
                   <div class="MainLogLeft">
                   <img src="https://res.cloudinary.com/durpirilj/image/upload/v1638719585/partnerImg/5_bons8i.svg" width="450px" alt="img for login page" />
@@ -49,15 +48,7 @@ function popUpForgotPassword() {
                         </div>
                         <div className="containerPasswords">
                         <div className="forgotPassword">
-                        <a onClick={popUpForgotPassword}><label>Forgot password?</label></a>
-                        <div className="popUpForgotPassword" id="popUpForgotPassword">
-                              <h1>Forgot Password?</h1>
-                              <form>
-                                    <input type="email" placeholder="Enter your email here..." className="btn" />
-                                    <button type="submit">Send Password!</button>
-                              </form>
-                              
-                        </div>
+                        <a  data-toggle="modal" data-target="#exampleModal"><label>Forgot password?</label></a>
                         </div>
                         </div>
                         <button type="submit" id="submitLogin">Login</button>
@@ -70,6 +61,28 @@ function popUpForgotPassword() {
                   </div>
 
             </div>
+            <div className="modal fade" id="exampleModal" tabIndex={-1} aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div className="modal-dialog">
+                        <div className="modal-content">
+                              <div className="modal-header">
+                              <h5 className="modal-title" id="exampleModalLabel">Forgot Password?</h5>
+                              <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">×</span>
+                              </button>
+                              </div>
+                              <form action="">
+                              <div className="modal-body text-center">
+                              <label htmlFor="">Enter your email here</label> <br />
+                              <input type="email" placeholder="Email...." className="text-left px-2 btn" required/>
+                              </div>
+                              <div className="modal-footer">
+                              <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
+                              <button type="submit" className="btn btn-primary">Send Password!</button>
+                              </div>
+                              </form>
+                        </div>
+                        </div>
+                        </div>
       <Footer />
             </>
       )
