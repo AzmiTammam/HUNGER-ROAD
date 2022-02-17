@@ -34,6 +34,7 @@ function App() {
           <Route path="/profile" element={<Profile />} />
           <Route path="/*" element={<PageNotFound />} />
           </Routes>
+
     </BrowserRouter>
   );
 }

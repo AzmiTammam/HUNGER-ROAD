@@ -14,17 +14,17 @@ function Footer() {
             </div>
             <div className="col-md-6 col-lg-7 text-center text-md-right">
               <a className="fb-ic">
-                <i className="fab fa-facebook-f white-text mr-4"> </i>
+                <i className="fab fa-facebook-f white-text mr-3"> </i>
               </a>
               <a className="tw-ic">
-                <i className="fab fa-twitter white-text mr-4"> </i>
+                <i className="fab fa-twitter white-text mr-3"> </i>
               </a>
               <a className="gplus-ic">
-                <i className="fab fa-google-plus-g white-text mr-4"> </i>
+                <i className="fab fa-google-plus-g white-text mr-3"> </i>
               </a>
 
               <a className="li-ic">
-                <i className="fab fa-linkedin-in white-text mr-4"> </i>
+                <i className="fab fa-linkedin-in white-text mr-3"> </i>
               </a>
 
               <a className="ins-ic">
@@ -58,7 +58,7 @@ function Footer() {
               <Link to="/home">Home</Link>
             </p>
             <p>
-              <Link to="/home">Sign up</Link>
+              <Link to="/register">Sign up</Link>
             </p>
             <p>
               <Link to="/rider">Become a driver</Link>
@@ -100,14 +100,14 @@ function Footer() {
               style={{ width: 60 }}
             />
             <p>
-              <i className="fas fa-home mr-3" /> Jordan, Amman
+              <i className="fas fa-home mr-2" /> Jordan, Amman
             </p>
             <p>
-              <i className="fas fa-envelope mr-3" /> info@example.com
+              <i className="fas fa-envelope mr-2" /> info@example.com
             </p>
             <p>
 
-              <i className="fas fa-phone mr-3" /> + 962 234 567 88
+              <i className="fas fa-phone mr-2" /> + 962 234 567 88
             </p>
           </div>
           <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 downloadapp">
