@@ -1,13 +1,26 @@
 .RestaurantDetails {
   display: flex;
   flex-direction: column;
-  margin: 70px 220px;
+  margin: 70px auto;
+  width: 80vw;
 }
 
 .restaurantTopContainer {
   display: flex;
-  flex-direction: row;
   align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.restaurantTopContainer .firstContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.restaurantTopContainer .twoContainer span {
+  margin: 0 3px;
+  font-size: 23px;
 }
 
 .restaurantTopContainer img {
@@ -35,4 +48,15 @@
 .restaurantTopContainer .restaurantInfo p {
   font-size: 15px;
   color: rgb(117, 117, 117);
+}
+
+.RestaurantDetails .deliveryAlert {
+  background-color: #fff3cd !important;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.RestaurantDetails .deliveryAlert span {
+  margin-right: 10px;
+  font-size: 17px;
 }
