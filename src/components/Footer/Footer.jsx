@@ -106,7 +106,6 @@ function Footer() {
               <i className="fas fa-envelope mr-2" /> info@example.com
             </p>
             <p>
-
               <i className="fas fa-phone mr-2" /> + 962 234 567 88
             </p>
           </div>
@@ -133,8 +132,11 @@ function Footer() {
       </div>
       <div className="footer-copyright text-center py-3">
         Developed and Designed by
-        <a href="https://twitter.com/azzmmii"> AzmiTammam</a> &copy; 2022 All
-        Rights Reserved.
+        <a href="https://azzmmii.com" target="_blank">
+          {" "}
+          AzmiTammam
+        </a>{" "}
+        &copy; 2022 All Rights Reserved.
       </div>
     </footer>
   );
