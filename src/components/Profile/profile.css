@@ -1,39 +1,40 @@
-
 .containerProfileOne {
-      height: 100vh;
-      border-radius: 10px !important;
-      border-top-right-radius: 0px !important;
-      border-bottom-right-radius: 0 !important;
+  height: 100vh;
+  border-radius: 10px !important;
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0 !important;
 }
 
 .containerProfileTwo {
-
-      height: 100vh;
-      border-radius: 10px !important;
-      border-top-left-radius: 0px !important;
-      border-bottom-left-radius: 0 !important;
+  height: 100vh;
+  border-radius: 10px !important;
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0 !important;
 }
 
 .info-heading {
-      border: 1px solid #E1533D;
-      border-radius: 50%;
-      width: max-content;
-      margin: 20px auto;
-      padding: 43px;
+  border: 1px solid #e1533d;
+  border-radius: 50%;
+  width: max-content;
+  margin: 20px auto;
+  padding: 43px;
 }
 
-.editInfo label{
-      display: block;
-      margin-top: 30px;
+.editInfo label {
+  display: block;
+  margin-top: 15px;
 }
 
 .editInfo input {
-      margin-bottom: 5px;
-      width: 100%;
-      border: 0;
-      height: 35px;
-      text-align: left;
-      padding: 10px 20px;
-      border-radius: 5px;
-      background-color: whitesmoke;
+  margin-bottom: 5px;
+  width: 100%;
+  border: 0;
+  height: 35px;
+  text-align: left;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: whitesmoke;
+}
+.breadcrumb {
+  background-color: transparent;
 }
