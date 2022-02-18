@@ -1,0 +1,38 @@
+.RestaurantDetails {
+  display: flex;
+  flex-direction: column;
+  margin: 70px 220px;
+}
+
+.restaurantTopContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.restaurantTopContainer img {
+  border: 1px solid rgba(0, 0, 0, 0.155);
+  max-width: 9rem;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.restaurantTopContainer .restaurantInfo {
+  margin-left: 15px;
+}
+
+.restaurantTopContainer .restaurantInfo h5 {
+  font-size: 20px;
+  color: #000;
+}
+
+.restaurantTopContainer .restaurantInfo h5:hover {
+  cursor: pointer;
+  color: #e1533d;
+  transition: all 0.3s ease;
+}
+
+.restaurantTopContainer .restaurantInfo p {
+  font-size: 15px;
+  color: rgb(117, 117, 117);
+}
