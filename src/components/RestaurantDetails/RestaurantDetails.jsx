@@ -44,6 +44,18 @@ function RestaurantDetails() {
             Delivered by us, with live tracking
           </div>
         </div>
+        <div className="menuContainerRestaurant">
+          <div className="categoryInMenu">
+            <h5>Category</h5>
+            <div className="categories"></div>
+          </div>
+          <div className="ItemsInMenu">
+            <h5>Menu</h5>
+          </div>
+          <div className="cartInMenu">
+            <h5>Cart</h5>
+          </div>
+        </div>
       </div>
       <Footer />
     </>
