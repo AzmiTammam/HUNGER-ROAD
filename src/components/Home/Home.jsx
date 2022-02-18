@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Footer from "../Footer/Footer";
 import Navbar from "../navbar/Navbar";
 import Category from "./category";
-import "./home.sass";
+import "./home.scss";
 
 function Home() {
   return (

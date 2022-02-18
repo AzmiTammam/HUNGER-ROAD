@@ -1,31 +1,25 @@
 .CategoryContainer .row .card p {
-      font-size: 15px;
-      font-weight: 300;
-      color: black;
+  font-size: 1em;
+  font-weight: 300;
+  color: black;
 }
 
 .CategoryContainer a {
-      color: black;
+  color: black;
 }
 
 .CategoryContainer .card {
-      margin-top: 35px;
+  margin-top: 35px;
 }
 
 .CategoryContainer .heading h2 {
-      margin-top: 55px;
+  margin-top: 55px;
 }
 .CategoryContainer .heading p {
-      font-size: 16px;
-      color: black;
-      display: block;
-      margin: 0 auto !important;
-      width: 34%;
+  font-size: 1em;
+  color: black;
 }
 
 .imageCard img {
-      max-width: 190px !important;
-      max-height: 155px !important;
-      min-width: 190px !important;
-      min-height: 155px !important;
+  width: 99%;
 }

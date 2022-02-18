@@ -9,12 +9,12 @@ function Category() {
         <h2 className="text-center">Your everyday, right away</h2>
         <p className="text-center">
           Order food and grocery delivery online from hundreds of restaurants
-          and shops{" "}
+          and shops
         </p>
       </div>
       <div className="row">
-        <div className="col-6">
-          <Link to="/restaurants" >
+        <div className="col-lg-6 col-md-12">
+          <Link to="/restaurants">
             <div className="card mb-3">
               <div className="row no-gutters">
                 <div className="col-md-4 imageCard">
@@ -37,7 +37,7 @@ function Category() {
             </div>
           </Link>
         </div>
-        <div className="col-6">
+        <div className="col-lg-6 col-md-12">
           <Link to="/restaurants">
             <div className="card mb-3">
               <div className="row no-gutters">
@@ -60,7 +60,6 @@ function Category() {
               </div>
             </div>
           </Link>
-          
         </div>
       </div>
     </div>
