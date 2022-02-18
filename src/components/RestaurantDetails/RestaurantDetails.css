@@ -97,4 +97,31 @@
   border-radius: 5px;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
+  margin-bottom: 0;
+}
+
+.cartInMenu {
+  padding: 0 20px;
+}
+
+.cartInMenu table {
+  width: 100%;
+}
+
+.cartInMenu table td {
+  padding: 5px 0;
+  font-size: 14px;
+}
+
+.cartInMenu table,
+th,
+td {
+  border: 1px solid rgba(221, 221, 221, 0.479);
+  text-align: center;
+}
+
+.cartInMenu table button {
+  border: 0;
+  background-color: transparent;
+  margin: 0 7px;
 }

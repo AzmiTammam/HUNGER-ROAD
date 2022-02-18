@@ -7,6 +7,7 @@ import { FaCcVisa, FaCcMastercard } from "react-icons/fa";
 import { BsCashStack } from "react-icons/bs";
 import { AiFillInfoCircle } from "react-icons/ai";
 import { MdOutlineRestaurantMenu } from "react-icons/md";
+import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 function RestaurantDetails() {
   return (
@@ -55,17 +56,37 @@ function RestaurantDetails() {
               Menu
             </button>
           </div>
-          <div className="cartInMenu">
-            <h5>Your Cart</h5>
-          </div>
-          {/*           <div className="InfoInMenu">
+          <div className="InfoInMenu">
             <button>
               <span>
                 <AiFillInfoCircle />
               </span>
               Info
             </button>
-          </div> */}
+          </div>
+          <div className="cartInMenu">
+            <h5>Your Cart</h5>
+            <table>
+              <tr>
+                <td>Name</td>
+                <td>Price</td>
+                <td>Quantity</td>
+              </tr>
+              <tr>
+                <td>BigMack</td>
+                <td>91$</td>
+                <td>
+                  <button>
+                    <IoIosArrowBack />
+                  </button>
+                  3
+                  <button>
+                    <IoIosArrowForward />
+                  </button>
+                </td>
+              </tr>
+            </table>
+          </div>
         </div>
       </div>
       <Footer />
