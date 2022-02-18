@@ -1,10 +1,12 @@
 import React from "react";
 import "./RestaurantDetails.css";
 import Navbar from "../navbar/Navbar";
+import { Link } from "react-router-dom";
 import Footer from "../Footer/Footer";
 import { FaCcVisa, FaCcMastercard } from "react-icons/fa";
 import { BsCashStack } from "react-icons/bs";
 import { AiFillInfoCircle } from "react-icons/ai";
+import { MdOutlineRestaurantMenu } from "react-icons/md";
 
 function RestaurantDetails() {
   return (
@@ -45,16 +47,25 @@ function RestaurantDetails() {
           </div>
         </div>
         <div className="menuContainerRestaurant">
-          <div className="categoryInMenu">
-            <h5>Category</h5>
-            <div className="categories"></div>
-          </div>
           <div className="ItemsInMenu">
-            <h5>Menu</h5>
+            <button>
+              <span>
+                <MdOutlineRestaurantMenu />
+              </span>
+              Menu
+            </button>
           </div>
           <div className="cartInMenu">
-            <h5>Cart</h5>
+            <h5>Your Cart</h5>
           </div>
+          {/*           <div className="InfoInMenu">
+            <button>
+              <span>
+                <AiFillInfoCircle />
+              </span>
+              Info
+            </button>
+          </div> */}
         </div>
       </div>
       <Footer />

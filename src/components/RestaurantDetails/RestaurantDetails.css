@@ -68,3 +68,33 @@
   align-items: center;
   margin-top: 35px;
 }
+
+.ItemsInMenu {
+  display: flex;
+  flex-direction: column;
+}
+
+.ItemsInMenu button,
+.InfoInMenu button {
+  border: 0;
+  background-color: transparent;
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+.ItemsInMenu button span,
+.InfoInMenu button span {
+  font-size: 22px;
+  margin-right: 5px;
+}
+
+.cartInMenu h5 {
+  background-color: #e1533d;
+  color: #fff;
+  padding: 5px;
+  width: 300px;
+  text-align: center;
+  border-radius: 5px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
