@@ -140,9 +140,11 @@ nav li a:hover::before {
     margin: 7px auto;
   }
   .navHeader {
-    width: 95%;
+    width: 100%;
+    display: flex;
     border-radius: 5px;
-    background-color: #e1533d;
+    margin: 0 auto 85px;
+    padding: 0;
   }
 
   .navHeader .navbar-toggler {
@@ -156,6 +158,16 @@ nav li a:hover::before {
   nav ul li a {
     color: #fff;
     font-weight: 400;
+  }
+  .custom-shape {
+    display: none;
+  }
+  .navbar {
+    position: fixed;
+    z-index: 555;
+    background-color: #e1533d;
+    padding: 5px 10px;
+    border-bottom: 1px solid #1f1f1f17;
   }
 }
 
