@@ -20,7 +20,7 @@ function Restaurants() {
             </ol>
           </nav>
           <div className="row">
-            <a href="/RestaurantDetails">
+            <Link to="/restaurantmenu">
               <div className="card" style={{ width: "13rem" }}>
                 <img
                   src="https://logoeps.com/wp-content/uploads/2011/04/old-mcdonalds-vector-logo.png"
@@ -32,7 +32,7 @@ function Restaurants() {
                   <p className="card-text">American, Breakfast, Burgers</p>
                 </div>
               </div>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
