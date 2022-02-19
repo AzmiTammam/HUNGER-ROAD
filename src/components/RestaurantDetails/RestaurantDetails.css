@@ -80,6 +80,7 @@
   background-color: transparent;
   font-size: 20px;
   margin-left: 5px;
+  position: sticky;
 }
 
 .ItemsInMenu button span,

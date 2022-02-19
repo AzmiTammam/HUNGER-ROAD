@@ -8,6 +8,7 @@ import { BsCashStack } from "react-icons/bs";
 import { AiFillInfoCircle } from "react-icons/ai";
 import { MdOutlineRestaurantMenu } from "react-icons/md";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
+import RestaurantInfoInDetails from "../RestaurantInfoInDetails/RestaurantInfoInDetails";
 
 function RestaurantDetails() {
   return (
@@ -88,6 +89,7 @@ function RestaurantDetails() {
             </table>
           </div>
         </div>
+        <RestaurantInfoInDetails />
       </div>
       <Footer />
     </>
