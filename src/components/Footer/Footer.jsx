@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import "./footer.sass";
+import "./footer.scss";
 import { Link } from "react-router-dom";
 
 function Footer() {
@@ -48,7 +48,7 @@ function Footer() {
               from hundreds of restaurants and shops.
             </p>
           </div>
-          <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 hideInMobile">
             <h6>Useful links</h6>
             <hr
               className="deep-purple accent-8 mb-4 mt-0 d-inline-block mx-auto"
@@ -70,7 +70,7 @@ function Footer() {
               <Link to="/home">Feedback</Link>
             </p>
           </div>
-          <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 hideInMobile">
             {/* Links */}
             <h6>Useful links</h6>
             <hr
@@ -115,18 +115,20 @@ function Footer() {
               className="deep-orange accent-2 mb-4 mt-0 d-inline-block mx-auto"
               style={{ width: 60 }}
             />
-            <img
-              className="d-block"
-              src="https://res.cloudinary.com/durpirilj/image/upload/v1639157342/partnerImg/logo_appstore_n4kjkc.svg"
-              alt="Download app"
-              width="180px"
-            />
-            <img
-              className="d-block"
-              src="https://res.cloudinary.com/durpirilj/image/upload/v1639157344/partnerImg/logo_playstore_hkoidg.svg"
-              alt="Download app"
-              width="180px"
-            />
+            <div className="containerImgDownload">
+              <img
+                className="d-block"
+                src="https://res.cloudinary.com/durpirilj/image/upload/v1639157342/partnerImg/logo_appstore_n4kjkc.svg"
+                alt="Download app"
+                width="180px"
+              />
+              <img
+                className="d-block"
+                src="https://res.cloudinary.com/durpirilj/image/upload/v1639157344/partnerImg/logo_playstore_hkoidg.svg"
+                alt="Download app"
+                width="180px"
+              />
+            </div>
           </div>
         </div>
       </div>
