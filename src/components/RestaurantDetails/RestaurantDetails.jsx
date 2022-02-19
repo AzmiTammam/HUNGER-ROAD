@@ -73,7 +73,7 @@ function RestaurantDetails() {
                 <td>Quantity</td>
               </tr>
               <tr>
-                <td>BigMack</td>
+                <td>Royal Strips Meal</td>
                 <td>91$</td>
                 <td>
                   <button>

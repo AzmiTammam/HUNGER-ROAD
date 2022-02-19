@@ -124,4 +124,26 @@ td {
   border: 0;
   background-color: transparent;
   margin: 0 7px;
+  font-size: 15px;
+  color: #e1533d;
+}
+
+@media screen and (max-width: 1025px) {
+  .menuContainerRestaurant {
+    flex-direction: column-reverse;
+  }
+  .cartInMenu {
+    margin-bottom: 25px;
+  }
+  .RestaurantDetails {
+    width: 100vw !important;
+  }
+  .cartInMenu h5 {
+    width: 100%;
+  }
+  .cartInMenu table,
+  th,
+  td {
+    padding: 5px !important;
+  }
 }
