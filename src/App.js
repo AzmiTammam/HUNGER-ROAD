@@ -16,7 +16,7 @@ import Users from "./components/Admin/Users/users";
 import Profile from "./components/Profile/Profile";
 import Restaurants from "./components/Restaurants/restaurants";
 import RestaurantDetails from "./components/RestaurantDetails/RestaurantDetails";
-
+import Checkout from "./components/Checkout/Checkout";
 function App() {
   return (
     <BrowserRouter>
@@ -34,6 +34,7 @@ function App() {
         <Route path="/sidebar" element={<Sidebar />} />
         <Route path="/Users" element={<Users />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/Checkout" element={<Checkout />} />
         <Route path="/*" element={<PageNotFound />} />
       </Routes>
     </BrowserRouter>
