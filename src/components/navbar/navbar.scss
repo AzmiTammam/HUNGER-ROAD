@@ -169,6 +169,11 @@ nav li a:hover::before {
     padding: 5px 10px;
     border-bottom: 1px solid #1f1f1f17;
   }
+  .css-button-sliding-to-left--black {
+    color: white;
+    border-color: white;
+    margin-top: 5px;
+  }
 }
 
 @media screen and (max-width: 426px) {
