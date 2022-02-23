@@ -1,4 +1,5 @@
 import react from "react";
+import { Link } from "react-router-dom";
 import Navbar from "../navbar/Navbar";
 import Footer from "../Footer/Footer";
 import "./Checkout.scss";
@@ -85,7 +86,7 @@ function Checkout() {
               <label htmlFor="cash">Cash</label>
             </div>
 
-            <button>Place order!</button>
+            <Link to="/done">Place order!</Link>
           </form>
         </div>
       </div>
