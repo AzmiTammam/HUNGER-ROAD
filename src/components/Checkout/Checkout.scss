@@ -66,11 +66,13 @@
   padding: 5px 25px;
 }
 
-.deliveryAddress form button {
+.deliveryAddress form a {
   margin: 5px 5px 10px;
+  display: block;
   padding: 10px 35px;
   border: 0;
   background-color: #de523d;
   color: #fff;
   width: 100%;
+  text-align: center;
 }
