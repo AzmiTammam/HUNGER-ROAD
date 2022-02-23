@@ -9,7 +9,6 @@ function Home() {
   return (
     <>
       <div className="home">
-        <Navbar />
         <div className="HeaderHome">
           <h1>Order food to your door!</h1>
           <Link className="effectButton" to="/restaurants">
@@ -18,7 +17,6 @@ function Home() {
         </div>
         <Category />
       </div>
-      <Footer />
     </>
   );
 }
