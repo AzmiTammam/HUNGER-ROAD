@@ -55,7 +55,7 @@ function Footer() {
               style={{ width: 60 }}
             />
             <p>
-              <Link to="/home">Home</Link>
+              <Link to="/">Home</Link>
             </p>
             <p>
               <Link to="/register">Sign up</Link>
@@ -67,7 +67,7 @@ function Footer() {
               <Link to="/partner">Become a partner</Link>
             </p>
             <p>
-              <Link to="/home">Feedback</Link>
+              <Link to="/">Feedback</Link>
             </p>
           </div>
           <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 hideInMobile">
@@ -81,13 +81,13 @@ function Footer() {
               <Link to="/profile">Your Account</Link>
             </p>
             <p>
-              <Link to="/home">Terms</Link>
+              <Link to="/">Terms</Link>
             </p>
             <p>
-              <Link to="/home">FAQ</Link>
+              <Link to="/">FAQ</Link>
             </p>
             <p>
-              <Link to="/home">Privacy</Link>
+              <Link to="/">Privacy</Link>
             </p>
             <p>
               <Link to="/Contact">Contact Us</Link>
