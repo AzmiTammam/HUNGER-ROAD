@@ -14,10 +14,10 @@ import PageNotFound from "./404-page";
 import Sidebar from "./components/Admin/sidebar/sidebar";
 import Users from "./components/Admin/Users/users";
 import Profile from "./components/Profile/Profile";
-import Restaurants from "./components/Restaurants/restaurants";
 import RestaurantDetails from "./components/RestaurantDetails/RestaurantDetails";
 import Checkout from "./components/Checkout/Checkout";
 import HomePage from "./Page/HomePage";
+import RestaurantPage from "./Page/RestaurantPage";
 function App() {
   return (
     <BrowserRouter>
@@ -27,7 +27,7 @@ function App() {
         <Route path="/Register" element={<Register />} />
         <Route path="/Rider" element={<Rider />} />
         <Route path="/Partner" element={<Partner />} />
-        <Route path="/Restaurants" element={<Restaurants />} />
+        <Route path="/Restaurants" element={<RestaurantPage />} />
         <Route path="/RestaurantMenu" element={<RestaurantDetails />} />
         <Route path="/ApplyPartner" element={<ApplyPartner />} />
         <Route path="/PartnerPanel" element={<PartnerPanel />} />
