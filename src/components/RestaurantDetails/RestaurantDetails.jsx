@@ -9,6 +9,7 @@ import { AiFillInfoCircle } from "react-icons/ai";
 import { MdOutlineRestaurantMenu } from "react-icons/md";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import RestaurantInfoInDetails from "../RestaurantInfoInDetails/RestaurantInfoInDetails";
+import RestaurantMenu from "../RestaurantMenu/RestaurantMenu";
 
 function RestaurantDetails() {
   return (
@@ -89,6 +90,7 @@ function RestaurantDetails() {
             </table>
           </div>
         </div>
+        <RestaurantMenu />
         <RestaurantInfoInDetails />
       </div>
       <Footer />
