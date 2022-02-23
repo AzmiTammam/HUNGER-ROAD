@@ -1,6 +1,6 @@
 import React from "react";
 import notFound from "../images/notFound.svg";
-import "../style.sass";
+import "../style.scss";
 import Navbar from "../components/navbar/Navbar";
 
 const PageNotFound = () => {
