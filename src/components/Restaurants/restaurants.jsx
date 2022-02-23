@@ -6,7 +6,6 @@ import "./restaurants.scss";
 function Restaurants() {
   return (
     <>
-      <Navbar />
       <div className="RestaurantsContainer">
         <div className="container">
           <nav aria-label="breadcrumb">
@@ -36,7 +35,6 @@ function Restaurants() {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 }
