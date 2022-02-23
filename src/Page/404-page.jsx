@@ -1,7 +1,7 @@
 import React from "react";
-import notFound from "./images/notFound.svg";
-import "../src/style.sass";
-import Navbar from "./components/navbar/Navbar";
+import notFound from "../images/notFound.svg";
+import "../style.sass";
+import Navbar from "../components/navbar/Navbar";
 
 const PageNotFound = () => {
   return (
