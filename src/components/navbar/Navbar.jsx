@@ -2,14 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./navbar.scss";
 
-
 function burgerMenu() {
-  let burgerMenu = document.getElementById('customNavGhassan');
+  let burgerMenu = document.getElementById("customNavGhassan");
 
-  if(burgerMenu.style.display === "none") {
-    burgerMenu.style.display = "block"
+  if (burgerMenu.style.display === "none") {
+    burgerMenu.style.display = "block";
   } else {
-    burgerMenu.style.display="none"
+    burgerMenu.style.display = "none";
   }
 }
 
@@ -37,32 +36,41 @@ function Navbar() {
             className="shape-fill"
           />
         </svg>
-      </div> 
-    <nav className="navbar navbar-expand-lg navbar-light">
-    <img src="./images/icon.png" className="logo" alt="icon" />
-      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span className="navbar-toggler-icon" />
-      </button>
-      <div className="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul className="navbar-nav ml-auto">
-          <li className="nav-item">
-          <Link to="/home">Home</Link>
-          </li>
-          <li className="nav-item">
-          <Link to="/partner">Become a partner</Link>
-          </li>
-          <li className="nav-item">
-          <Link to="/rider">become a driver</Link>
-          </li>
-          <li className="nav-item">
-          <Link to="/restaurants">All restaurants</Link>
-          </li>
-          <li className="nav-item">
-          <Link to="/login" className="css-button-sliding-to-left--black ">Login</Link>
-          </li>
-        </ul>
       </div>
-    </nav>
+      <nav className="navbar navbar-expand-lg navbar-light">
+        <img src="./images/icon.png" className="logo" alt="icon" />
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon" />
+        </button>
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul className="navbar-nav ml-auto">
+            <li className="nav-item">
+              <Link to="/">Home</Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/partner">Become a partner</Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/rider">become a driver</Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/restaurants">All restaurants</Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/login" className="css-button-sliding-to-left--black ">
+                Login
+              </Link>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </div>
   );
 }
