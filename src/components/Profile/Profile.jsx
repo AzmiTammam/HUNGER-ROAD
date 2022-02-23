@@ -1,9 +1,9 @@
 import react from "react";
 import { Link } from "react-router-dom";
 import Navbar from "../navbar/Navbar";
+import Footer from "../Footer/Footer";
 import "./profile.css";
 import person from "./images/person.png";
-
 function Profile() {
   return (
     <>
@@ -20,40 +20,40 @@ function Profile() {
           </ol>
         </nav>
         <div className="row">
-          <div className="col-lg-4 col-sm-12 containerProfileOne text-center">
-            <div className="info">
-              <div className="info-heading">
-                <img
-                  src={person}
-                  width="150px"
-                  alt="Person icon profile picture"
-                />
-              </div>
-              <div className="info-body">
-                <h3>${`name`}</h3>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-8 col-sm-12 containerProfileTwo text-center">
+          <div className="col-12">
+            <h3>My Account</h3>
+
             <div className="editInfo text-left">
-              <label htmlFor="nameOfUser">Name:</label>
-              <input type="text" id="nameOfUser" disabled />
-              <label htmlFor="Email">Email:</label>
-              <input type="text" id="Email" disabled />
-              <label htmlFor="phone">Phone:</label>
-              <input type="text" id="phone" disabled />
-              <label htmlFor="Password">Password:</label>
-              <input type="text" id="Password" disabled />
-              <label htmlFor="country">Country:</label>
-              <select name="country" id="country" disabled="disabled">
-                <option value="Amman">Amman</option>
-                <option value="Amman">Irbid</option>
-                <option value="Amman">Aqaba</option>
-              </select>
+              <form>
+                <input type="text" id="nameOfUser" placeholder="Username" />
+                <input type="text" id="Email" placeholder="Email" />
+                <input type="text" id="phone" placeholder="Phone Number" />
+                <input type="text" id="Password" placeholder="Password" />
+                <input type="text" id="address" placeholder="Address Line 1" />
+                <input type="text" id="address2" placeholder="Address Line 2" />
+                <button type="submit">Submit!</button>
+              </form>
+
+              <h3>My Orders</h3>
+              <table className="col-12">
+                <tr>
+                  <th>IMG</th>
+                  <th>Name</th>
+                  <th>Qty</th>
+                  <th>Date</th>
+                </tr>
+                <tr>
+                  <td>j</td>
+                  <td>j</td>
+                  <td>j</td>
+                  <td>j</td>
+                </tr>
+              </table>
             </div>
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }
