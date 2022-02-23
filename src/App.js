@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import "./style.sass";
+import "./style.scss";
 import "animate.css";
 import Login from "./components/Login/Login";
 import Register from "./components/Register/Register";
@@ -16,6 +16,7 @@ import RestaurantDetails from "./components/RestaurantDetails/RestaurantDetails"
 import Checkout from "./components/Checkout/Checkout";
 import HomePage from "./Page/HomePage";
 import RestaurantPage from "./Page/RestaurantPage";
+import Thanks from "./Page/ThanksPage";
 function App() {
   return (
     <BrowserRouter>
@@ -34,6 +35,7 @@ function App() {
         <Route path="/Users" element={<Users />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/Checkout" element={<Checkout />} />
+        <Route path="/done" element={<Thanks />} />
         <Route path="/*" element={<PageNotFound />} />
       </Routes>
     </BrowserRouter>
