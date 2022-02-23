@@ -17,11 +17,12 @@ import Profile from "./components/Profile/Profile";
 import Restaurants from "./components/Restaurants/restaurants";
 import RestaurantDetails from "./components/RestaurantDetails/RestaurantDetails";
 import Checkout from "./components/Checkout/Checkout";
+import HomePage from "./Page/HomePage";
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<HomePage />} />
         <Route path="/login" element={<Login />} />
         <Route path="/Register" element={<Register />} />
         <Route path="/Rider" element={<Rider />} />
